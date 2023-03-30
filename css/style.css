@@ -1,0 +1,165 @@
+@media screen and (min-width:1200px)  {
+    .container{
+        width: 1170px;
+    }
+}
+.container{
+    padding: 6.25rem 0px;
+}
+#headerSec{
+    background-image: url(../img/events-heavenly-header.jpg);
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+}
+.slider{
+    padding-top: 1rem;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 21.875rem;
+}
+.sliderItem a{
+    padding: 1.25rem 0.5rem 1.25rem 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+.sliderItem a:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+#listContainer{
+    background-color: #414658;
+    width: 15.625rem;
+}
+#closeBtn{
+    font-size: 1.5rem;
+    display: flex;
+    right: 10px;
+}
+#closeBtn{
+    transition: 0.3s;
+    cursor: pointer;
+}
+#closeBtn:hover{
+    color: rgba(214, 46, 51, 0.4) !important;
+}
+#openBtn{
+    top: 45%;
+    right: -1rem;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+#main_title{
+    font-size: 3.75rem;
+}
+#accordionSec{
+    padding: 6.25rem 0;
+    margin: 0px auto;
+    width: 50%;
+    text-align: center;
+}
+#accordionSec h3{
+    cursor: pointer;
+    padding: 0.6rem;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    border-bottom: 1px solid white;
+}
+#accordionSec div{
+    padding: 0.6rem;
+    background-color: #ccc;
+    display: none;
+}
+#countSec{
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+.tim{
+    padding: 3.125rem;
+    border: 1px solid #FFF;
+}
+.head h2{
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact p{
+    color: #777;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.con-info h3{
+    color: #444;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+.icons{
+    margin-top: 3.125rem;
+}
+.icons p{
+    margin-bottom: 2.1875rem;
+}
+.icons i{
+    margin-right: 1.25rem;
+    color: #777 !important;
+}
+.con-social{
+    margin-top: 3.75rem;
+}
+.con-social i{
+    margin-right: 0.625rem;
+    border: 1px solid #999;
+    border-radius: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.625rem;
+    cursor: pointer;
+    text-align: center;
+    color: #777;
+    transition: 0.3s;
+}
+.con-social i:hover{
+    background-color: rgba(214, 46, 51);
+    color: #FFF;
+}
+#contact input, #contact form textarea{
+    margin-bottom: 1.25rem;
+    border-radius: 0;
+    height: 46px;
+    padding: 0.75rem 1rem;
+    font-size: 1.2rem;
+    border: 1px solid #ccc !important;
+}
+#contact textarea{
+    height: 200px;
+    resize: vertical;
+}
+#char{
+    font-size: 1.25rem;
+    color: #D62E33;
+    font-weight: 600;
+}
+::placeholder{
+    font-size: 1.25rem;
+}
